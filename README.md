@@ -15,11 +15,6 @@ This project aims to analyze air quality data, covering pollutants such as **PM2
     conda install -c conda-forge streamlit
     ```
 
-3. **Run Streamlit App:**
-    ```bash
-    streamlit run submission/dashboard/dashboard.py
-    ```
-
 ## Setup Environment with Shell/Terminal
 
 Create the necessary directories and files for the project:
@@ -28,9 +23,12 @@ mkdir -p submission/dashboard
 mkdir -p submission/data
 touch submission/dashboard/combined_df.csv
 touch submission/dashboard/dashboard.py
-touch submission/data/data_1.csv
-touch submission/data/data_2.csv
+touch submission/data/data (all dataset)
 touch submission/Project-Air-Quality.ipynb
 touch submission/README.md
 touch submission/requirements.txt
 touch submission/url.txt
+```
+
+## Run Streamlit APP
+streamlit run dashboard.py
