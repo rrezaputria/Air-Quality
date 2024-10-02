@@ -29,5 +29,5 @@ touch submission/README.md
 touch submission/requirements.txt
 touch submission/url.txt
 
-# Run Steamplit App
+## Run Steamplit App
 streamlit run dashboard.py
